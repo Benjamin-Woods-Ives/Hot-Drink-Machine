@@ -1,0 +1,42 @@
+.coffeeMachine {
+    display: grid;
+    max-height: 500px;
+    max-width: 500px;
+    width: 80%;
+    min-width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: darkgrey;
+    grid-template-columns:  auto auto;
+    grid-template-columns: repeat(auto-fill ,minmax(auto, 156px));
+    /* align-content: center; */
+    justify-content: center;
+    border-radius: 5px;
+    margin: 2% auto;
+    padding: 2%;
+}
+.main {
+    display: grid;
+    grid-template-columns:  1 auto;
+    border-radius: 5px;
+    width: 60%;
+    padding: 5%;
+    align-content: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin:  1% auto;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 515px) {
+    .main {
+        width:100%;
+        margin: 1% auto;
+        border-radius: 0px;
+    }
+}

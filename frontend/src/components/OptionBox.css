@@ -1,0 +1,15 @@
+.OptionBox {
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    margin: 2px;
+    border-radius: 5px;
+}
+.OptionBox:hover {
+    transform: scale(1.04);
+}
+.OptionBox:active {
+    transform: translate(4px);
+}

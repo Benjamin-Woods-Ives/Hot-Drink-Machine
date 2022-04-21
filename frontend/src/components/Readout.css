@@ -1,0 +1,9 @@
+.preperationReadout {
+    border: 2px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-radius: 5px;
+    width: 60%;
+    margin: 2% auto;
+    padding: 2%;
+}
